@@ -100,7 +100,7 @@ public class SoopyV2Forge
 
             new Thread(() -> {
                 try {
-                    URL downloadURL = new URL("https://github.com/CursedAtom/SoopyV2/releases/download/v0.0.1/SoopyV2.zip");
+                    URL downloadURL = new URL("https://github.com/CursedAtom/SoopyV2/releases/download/zipped/SoopyV2.zip");
 
                     if (!new File("." + File.separator + "config" + File.separator + "ChatTriggers" + File.separator
                             + "modules").exists())
