@@ -30,7 +30,7 @@ import java.util.zip.ZipInputStream;
 public class SoopyV2Forge
 {
     public static final String MODID = "soopyv2forge";
-    public static final String VERSION = "1.1";
+    public static final String VERSION = "1.2";
 
     public static SoopyV2Forge INSTANCE;
 
@@ -117,8 +117,8 @@ public class SoopyV2Forge
                     this.urlToFile(downloadURL,
                             "." + File.separator + "config" + File.separator + "ChatTriggers" + File.separator
                                     + "modules" + File.separator + "SoopyV2.zip",
-                            10000,
-                            10000);
+                            30000,
+                            40000);
                     this.unzip("." + File.separator + "config" + File.separator + "ChatTriggers" + File.separator
                                     + "modules" + File.separator + "SoopyV2.zip",
                             "." + File.separator + "config" + File.separator + "ChatTriggers" + File.separator
